@@ -1,0 +1,52 @@
+#  Browser Extension Audit Report
+
+---
+
+## 🔍 Extensions Before Review
+
+| Extension Name        | Description                        | Permissions                              | Status   |
+|-----------------------|------------------------------------|------------------------------------------|----------|
+| Video Downloader Plus | Video downloader from any site     | Read and change all data on websites     | Suspicious |
+| PDF Converter HQ      | PDF conversion tool                | Manage downloads, access browsing data   | Suspicious |
+| Grammarly             | Writing assistant                  | Minimal (site-specific)                  | Safe     |
+| Dark Reader           | Night mode for websites            | Modify appearance of websites            | Safe     |
+
+---
+
+## ❗ Suspicious Findings
+
+### 1. **Video Downloader Plus**
+- **Permissions**: Access to all websites, data modification rights.
+- **Concerns**: Broad access without clear justification, many users report popups and performance issues.
+- **Action Taken**: Removed.
+
+### 2. **PDF Converter HQ**
+- **Permissions**: Modify browser settings, redirect tabs.
+- **Concerns**: Known for ad injections and hijacking search engines.
+- **Action Taken**: Removed.
+
+---
+
+## ✅ Final Status After Cleanup
+
+| Extension Name | Status |
+|----------------|--------|
+| Grammarly      | Retained |
+| Dark Reader    | Retained |
+
+Browser performance improved, and no suspicious behavior was observed after removal.
+
+---
+
+## 📚 Best Practices Learned
+
+1. **Check permissions**: Avoid extensions with overly broad permissions.
+2. **Verify source**: Only install from trusted developers.
+3. **Review periodically**: Clean up unused or outdated extensions.
+4. **Use sandboxed environments** for testing untrusted tools.
+
+---
+
+## 📸 Evidence
+Please refer to the `screenshots/` folder for visual proof of extension audit steps.
+
