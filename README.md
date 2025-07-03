@@ -1,49 +1,45 @@
-# Task 7 – Identify and Remove Suspicious Browser Extensions
+#  Task 7 – Identify and Remove Suspicious Browser Extensions
 
 ##  Objective
-This task was part of a Cyber Security Internship designed to raise awareness about the potential threats posed by browser extensions. The goal was to identify and remove any suspicious, unused, or potentially harmful extensions installed in a web browser.
+This task is part of a Cyber Security Internship aimed at increasing awareness of browser-based threats. The goal was to identify, analyze, and remove potentially harmful or unnecessary browser extensions to improve security and performance.
 
-##  Tools Used
-- **Browser**: Google Chrome (you may replace this with Firefox if applicable)
-- **Operating System**: Windows 10
-- **Manual Review and Research**
+## Tools Used
+- **Web Browser**: Google Chrome
+- **Platform**: Windows 10
+- **Research Method**: Manual inspection and review using Chrome Web Store and online security sources
 
-##  Steps Performed
+## Steps Performed
 
-1. **Opened Chrome Extension Manager**  
-   Navigated to `chrome://extensions/` to view all currently installed extensions.
+1. **Accessed the Extensions Panel**
+   - Navigated to `chrome://extensions/` in the browser to view all currently installed extensions.
 
-2. **Reviewed Each Extension Manually**  
-   - Checked the **permissions** granted (e.g., "Read and change all your data on the websites you visit").
-   - Reviewed **user ratings** and **reviews** on the Chrome Web Store.
-   - Identified extensions that had poor reviews, outdated development activity, or suspicious functionality.
+2. **Manually Reviewed Each Extension**
+   - Observed extension names, permissions, and developer information.
+   - Clicked on "Details" for each extension to check what permissions were granted (e.g., access to site data, history, downloads).
+   - Searched for reviews and reputation of each extension in the Chrome Web Store and cybersecurity forums.
 
-3. **Flagged Suspicious Extensions**  
-   - One extension named "**Video Downloader Plus**" had overly broad permissions and questionable reviews.
-   - Another extension called "**PDF Converter HQ**" redirected users to unwanted websites—this was a red flag.
+3. **Identified Suspicious or Unused Extensions**
+   - Flagged extensions that requested excessive permissions or had negative reviews or low ratings.
+   - Examples: Extensions like "Video Downloader Plus" and "PDF Converter HQ" showed signs of being intrusive or misleading.
 
-4. **Removed Unnecessary Extensions**  
-   Uninstalled the flagged extensions and others I no longer use to improve security and browser performance.
+4. **Removed Problematic Extensions**
+   - Uninstalled extensions that were:
+     - Not in use
+     - Poorly reviewed
+     - Known for hijacking browser settings or redirecting traffic
 
-5. **Restarted Browser**  
-   Ensured the changes were applied and checked for any improvement in performance or unexpected behavior.
+5. **Restarted Browser**
+   - To ensure all changes took effect and confirm the system behaved normally after removal.
 
-##  What I Learned
-- Browser extensions, while useful, can easily become vectors for malware, spyware, or adware.
-- Some extensions request excessive permissions that can compromise privacy.
-- Keeping only trusted, essential extensions minimizes the attack surface of your browser.
+## Key Learnings
+- Some browser extensions, though useful on the surface, may pose serious privacy and security risks.
+- Always review the permissions an extension asks for during installation.
+- Keep only those extensions that are essential and from trusted sources.
 
-##  Screenshots
-You can find all relevant screenshots in the `screenshots/` folder:
-- `extensions_before.png`: Extensions before audit
-- `suspicious_extension_details.png`: A highlighted example
-- `extensions_after.png`: Extensions after cleanup
-
-##  Key Concepts
+## 📚 Key Concepts
 - Browser Security
-- Extension Permissions
-- Malware Awareness
-- Digital Hygiene Best Practices
+- Permissions Analysis
+- Malicious Extensions
+- Safe Browsing Practices
 
-
-
+---
