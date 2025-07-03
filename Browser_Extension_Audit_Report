@@ -1,52 +1,48 @@
 #  Browser Extension Audit Report
 
----
-
-## 🔍 Extensions Before Review
-
-| Extension Name        | Description                        | Permissions                              | Status   |
-|-----------------------|------------------------------------|------------------------------------------|----------|
-| Video Downloader Plus | Video downloader from any site     | Read and change all data on websites     | Suspicious |
-| PDF Converter HQ      | PDF conversion tool                | Manage downloads, access browsing data   | Suspicious |
-| Grammarly             | Writing assistant                  | Minimal (site-specific)                  | Safe     |
-| Dark Reader           | Night mode for websites            | Modify appearance of websites            | Safe     |
 
 ---
 
-## ❗ Suspicious Findings
+##  Extensions Reviewed
+
+| Extension Name        | Purpose                             | Permissions Granted                      | Status     |
+|-----------------------|-------------------------------------|-------------------------------------------|------------|
+| Video Downloader Plus | Download videos from websites       | Access to all websites' data              | Suspicious |
+| PDF Converter HQ      | Convert web content to PDF          | Access to tabs, downloads, redirection    | Suspicious |
+| Grammarly             | Writing enhancement                 | Limited to specific site usage            | Safe       |
+| Dark Reader           | Dark mode for websites              | Modify appearance settings                | Safe       |
+
+---
+
+##  Analysis and Actions Taken
 
 ### 1. **Video Downloader Plus**
-- **Permissions**: Access to all websites, data modification rights.
-- **Concerns**: Broad access without clear justification, many users report popups and performance issues.
-- **Action Taken**: Removed.
+- **Issues Found**: Requested permission to read and change data on all websites. Chrome Web Store reviews reported frequent popups and malicious redirects.
+- **Action**: Uninstalled immediately due to privacy concerns.
 
 ### 2. **PDF Converter HQ**
-- **Permissions**: Modify browser settings, redirect tabs.
-- **Concerns**: Known for ad injections and hijacking search engines.
-- **Action Taken**: Removed.
+- **Issues Found**: Redirected search queries, showed ads, and had multiple user complaints about browser hijacking.
+- **Action**: Removed from browser for safety.
+
+### 3. **Safe Extensions**
+- **Grammarly** and **Dark Reader** were retained as they had good reputations, limited permissions, and are widely trusted.
 
 ---
 
-## ✅ Final Status After Cleanup
+## What I Did and How I Found Them
 
-| Extension Name | Status |
-|----------------|--------|
-| Grammarly      | Retained |
-| Dark Reader    | Retained |
-
-Browser performance improved, and no suspicious behavior was observed after removal.
+1. **Manual Inspection**: I navigated to the browser's extension page and reviewed each installed extension.
+2. **Permission Review**: For every extension, I examined the list of permissions it requested. Extensions with access to all websites or the ability to change browser settings were investigated further.
+3. **Online Verification**: I searched for each extension's name on the Chrome Web Store and cybersecurity discussion forums to check for any negative feedback or security alerts.
+4. **Decision Making**: Based on the research and analysis, I decided which extensions were safe to keep and which were risky and needed removal.
 
 ---
 
-## 📚 Best Practices Learned
+##  Key Takeaways
 
-1. **Check permissions**: Avoid extensions with overly broad permissions.
-2. **Verify source**: Only install from trusted developers.
-3. **Review periodically**: Clean up unused or outdated extensions.
-4. **Use sandboxed environments** for testing untrusted tools.
+- Review all browser extensions regularly.
+- Check permissions and reviews before installing any new extension.
+- Remove any that seem suspicious, unused, or overly invasive.
+- Use only extensions developed by trusted publishers or companies.
 
 ---
-
-## 📸 Evidence
-Please refer to the `screenshots/` folder for visual proof of extension audit steps.
-
